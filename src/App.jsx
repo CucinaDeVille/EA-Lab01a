@@ -5,7 +5,7 @@ function App() {
   return (
     <>
         <NameTag bgcolor="#F00">Spiderman</NameTag>
-        <NameTag bgcolor="#0F0">Batman</NameTag>
+        <NameTag>Batman</NameTag>
         <NameTag>Superman</NameTag>
     </>
   );
