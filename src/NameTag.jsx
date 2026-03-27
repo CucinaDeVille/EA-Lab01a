@@ -10,10 +10,11 @@ function checkColor(i){
 }
 
 export default function NameTag(props) {
+    const { bgcolor, children } = props;
     return (
-        <div className="TagBG" style={{backgroundColor: checkColor(props.bgcolor)}}>
+        <div className="TagBG" style={{backgroundColor: checkColor(bgcolor)}}>
             <div className="TagFont">
-                {props.children}
+                {children}
             </div>
         </div>
     );
