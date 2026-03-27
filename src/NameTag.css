@@ -1,0 +1,14 @@
+.TagBG {
+    background: #ffd900;
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px;
+    font-size: 32px;
+}
+
+.TagFont {
+    color: rgb(0, 10, 14);
+    font-size: 48px;
+    font-family: monospace;
+    text-align: center;
+}
